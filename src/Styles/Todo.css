@@ -1,0 +1,18 @@
+.todo {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.todo-item {
+    list-style-type: none;
+    background-color: red;
+    width: 200px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
